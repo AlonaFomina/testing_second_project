@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>TestNG:  Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 10 16:45:02 CDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>66 seconds (66188 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.UnitedTests.testAndValidateRadioButtons()'><b>testAndValidateRadioButtons</b><br>Test class: tests.UnitedTests<br>Test method: Test Case 3: Validate "Round-trip" and "One-way" radio buttons</td>
+<td></td>
+<td>7</td>
+<td>tests.UnitedTests@704d6e83</td></tr>
+<tr>
+<td title='tests.UnitedTests.testNavigationItems()'><b>testNavigationItems</b><br>Test class: tests.UnitedTests<br>Test method: Test Case 1: Validate "Main menu" navigation items</td>
+<td></td>
+<td>5</td>
+<td>tests.UnitedTests@704d6e83</td></tr>
+<tr>
+<td title='tests.UnitedTests.validateBookTravelNavigationItems()'><b>validateBookTravelNavigationItems</b><br>Test class: tests.UnitedTests<br>Test method: Test Case 2: Validate "Book travel menu" navigation items</td>
+<td></td>
+<td>5</td>
+<td>tests.UnitedTests@704d6e83</td></tr>
+<tr>
+<td title='tests.UnitedTests.validateCheckBoxes()'><b>validateCheckBoxes</b><br>Test class: tests.UnitedTests<br>Test method: Test Case 4: Validate "Book with miles" and "Flexible dates" checkboxes</td>
+<td></td>
+<td>10</td>
+<td>tests.UnitedTests@704d6e83</td></tr>
+<tr>
+<td title='tests.UnitedTests.validateDeparture()'><b>validateDeparture</b><br>Test class: tests.UnitedTests<br>Test method: Test Case 5: Validate One-way ticket search results "from Chicago, IL, US (ORD) to Miami, FL, US (MIA)</td>
+<td></td>
+<td>18</td>
+<td>tests.UnitedTests@704d6e83</td></tr>
+</table><p>
+</body>
+</html>
